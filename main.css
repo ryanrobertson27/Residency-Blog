@@ -1,0 +1,43 @@
+header {
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-color: #56585c;
+    height: 60px;
+    position: fixed;
+}
+
+header ul{
+    display: block;
+    position: relative;
+    margin-left: 100px
+}
+
+header ul li {
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 6;  
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+}
+
+#subscribe {
+    position: fixed;
+    display: block;
+    background-color: #e62739;
+    width: 100px;
+    border: none;
+    top: 0; right: 0;
+    height: 60px;
+    width: 12.5%;
+}
+
+#mainpic {
+    width: 100%;
+    left: 0; right: 0; 
+}
